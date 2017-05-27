@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <div id="header">
+
+        <h1 align="center" id="naglowek" class="curved container">Sklep elektroniczny "Ale Złom!"</h1>
+
+        <div id="headerContent" class="curved">
+
+            <div id="navigation" class="curved container">
+                <h:form id="navForm" style="margin:0;padding:0;">
+                    <span class="label">
+                        <h:link class="link" id="homeLink" outcome="index.xhtml" value="HOME"></h:link>
+                    </span>
+
+                    <span class="label">
+                        <h:link class="link" id="produktLink" outcome="produktList.xhtml" value="PRODUKTY"></h:link>
+                    </span>
+
+                    <span class="label" >
+                        <h:link class="link" rendered="#{loginSessionBean.admin}" id="adminPanelLink" outcome="adminPanel.xhtml" value="ADMIN PANEL"></h:link>
+                    </span>
+
+                    <span class="label" id="logoutLabel">
+                        <h:commandLink class="link" rendered="#{loginSessionBean.loggedIn}" id="logoutLink" action="#{loginSessionBean.logout()}" value="LOGOUT"></h:commandLink>
+                    </span>
+
+                    <span class="label" id="loginLabel">
+                        <h:link class="link" rendered="#{!loginSessionBean.loggedIn}" id="loginLink" outcome="login.xhtml" value="LOGIN"></h:link>
+                    </span>
+
+                    <span class="label" id="registerLabel">
+                        <h:link class="link" rendered="#{!loginSessionBean.loggedIn}" id="registerLink" outcome="register.xhtml" value="REGISTER"></h:link>
+                    </span>
+
+                    <span class="label" id="zamowieniaLabel">
+                        <h:link class="link"  rendered="false" id="zamowieniaLink" outcome="zamowienia.xhtml" value="ZAMOWIENIA"></h:link>
+                    </span>
+                    <br class="separator"/>
+                </h:form>
+            </div>
+        </div>
+    </div>
+</ui:composition>
+

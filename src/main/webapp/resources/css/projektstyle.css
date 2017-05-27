@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-05-15, 20:02:32
+    Author     : Daniel
+*/
+
+body{
+    text-align: center;
+    font-family: Arial,sans-serif;
+    background-color:#cccccc;
+    text-shadow:1px 1px 1px black;
+    color:#666;
+}
+
+#wrapper{
+    margin: 0 auto;
+    text-align: left;
+    width:100%;
+    min-height: 800px;
+    background-color:#cccccc;
+    padding-bottom:24px;    
+}
+
+#naglowek{
+    background-color: #dddddd;
+    width:600px;
+    margin:0 auto;
+    box-shadow:inset 0px 0px 5px 3px rgba(137,153,127,1);
+}
+
+#header{
+    margin: 0 auto;
+    background-color: #cccccc;
+    height:auto;
+    width:100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#body{
+    background-color: #dddddd;
+    width:1024px;
+    min-height:800px;
+    margin:2px auto;
+    box-shadow:inset 0px 0px 5px 3px rgba(137,153,127,1);
+}
+
+
+#headerContent,#cartBody{
+    background-color: #dddddd;
+    width:1024px;
+    height:auto;
+    margin:2px auto;
+    box-shadow:inset 0px 0px 5px 3px rgba(137,153,127,1);
+}
+
+#navigation{
+    display: inline;
+    margin: 0 0 10px;
+}
+
+.curved{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+
+.container{
+    padding: 10px;
+    margin: 0 0 10px;
+}
+
+
+
+#navigation span{
+    display:block;
+    float:left;
+}
+
+#navigation span a:link,
+#navigation span a:visited,
+#navigation span a:active {
+    color: #666;
+    text-decoration: none;
+}
+
+#navigation span a:hover{
+    color:#ccffcc;
+}
+
+#navigation span a{
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+#navigation span#loginLabel,
+#navigation span#registerLabel,
+#navigation span#logoutLabel{
+    float: right;
+    margin-right: 0;
+}
+
+.order-table{   min-width:400px;
+                box-shadow: 0px 0px 5px 3px rgba(137,153,127,1);
+                border-collapse:collapse;
+}
+
+.order-table-header{
+    text-align:center;
+    background:none repeat scroll 0 0 #E5E5E5;
+    border-bottom:1px solid #BBBBBB;
+    padding:16px;
+}
+
+.order-table-odd-row{
+    text-align:center;
+    background:none repeat scroll 0 0 #719641;
+    border-top:1px solid #BBBBBB;
+}
+
+.order-table-even-row{
+    text-align:center;
+    background:none repeat scroll 0 0 #bad4b6;
+    border-top:1px solid #BBBBBB;
+}
+
+.error{
+    color:red;
+}
+
+#registerContainer,#loginContainer{
+    box-shadow:0px 0px 5px 3px rgba(137,153,127,1);
+    max-width:450px;
+}
+

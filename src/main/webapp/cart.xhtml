@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <div id="cartWrapper">
+        <div id="cartBody" class="curved" >
+            <div id="cartContent" class="curved container">
+                <div align="center" style="margin:10px 30px;">
+                    <h:form id="cartForm" rendered="#{loginSessionBean.loggedIn}">
+                        <h:dataTable id="cartTable" value="#{cartSessionBean.cart}" var="item"
+                                     styleClass="order-table"
+                                     headerClass="order-table-header"
+                                     rowClasses="order-table-odd-row,order-table-even-row">
+                            <f:facet name="header">Twój koszyk</f:facet>
+                            <h:column>
+                                <f:facet name="header">Nazwa</f:facet>
+                                    #{item.nazwa}
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">Cena</f:facet>
+                                <h:outputLabel value="#{item.cena}">
+                                    <f:convertNumber type="currency" minFractionDigits="2" maxFractionDigits="2" currencySymbol="ZŁ"/>
+                                </h:outputLabel>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">Ilość</f:facet>
+                                <h:inputText id="ilosc" value="#{item.ilosc}" style="width: 20px">
+                                    <f:ajax execute="ilosc" render="total" event="keyup" immediate="true"/>
+                                </h:inputText>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">Akcja</f:facet>
+                                <h:commandButton id="deleteItem" value="delete" action="#{cartSessionBean.remove(item)}">
+                                    <f:ajax execute="deleteItem" render="cartForm:cartTable"/> </h:commandButton>
+                            </h:column>
+                            <f:facet id="totalFooter" name="footer">Razem: 
+                                <h:outputLabel id="total" value="#{cartSessionBean.total}">
+                                    <f:convertNumber type="currency" maxFractionDigits="2" minFractionDigits="2" currencySymbol="ZŁ"/>
+                                </h:outputLabel>
+                            </f:facet>
+                        </h:dataTable>
+
+                        <h:commandButton rendered="#{loginSessionBean.loggedIn}" id="zamów" value="zamów" action="#{zamowienieController.dodajZamówienie()}">
+                            <f:ajax execute="zamów" render="zamówError cartTable"/>
+                        </h:commandButton>
+                        <br/>
+                        <h:message id="zamówError" for="zamów" />
+                    </h:form>
+                </div>
+            </div>
+        </div>
+    </div>
+</ui:composition>
+

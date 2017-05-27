@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Register</title>
+        <h:outputStylesheet library="css" name="projektstyle.css" />
+    </h:head>
+    <h:body>
+
+        <ui:include src="header.xhtml"/>
+        <div id="wrapper">
+            <div id="body" class="curved">
+                <div id="content" class="curved container">
+
+
+
+                    <h1 align="center">Zarejestruj się</h1>
+
+                    <div align="center">
+                        <div id="registerContainer" class="curved container">
+
+                            <h:form id="registerForm">
+
+                                <h:panelGrid  id="registerFormGrid">
+
+                                    *IMIE: <h:inputText label="IMIE" id="imie" value="#{registerController.imie}" required="true">
+                                        <f:ajax execute="imie" render="imieError" event="keyup" immediate="true"/></h:inputText>
+                                    <h:message id="imieError" for="imie" style="color: red" ></h:message>
+
+                                    *NAZWISKO: <h:inputText  label="NAZWISKO" id="nazwisko" value="#{registerController.nazwisko}" required="true" >
+                                        <f:ajax execute="nazwisko" render="nazwiskoError" event="keyup" immediate="true"/></h:inputText>
+                                    <h:message id="nazwiskoError" for="nazwisko" style="color: red"></h:message>
+
+                                    *MIASTO:<h:inputText required="true" id="miasto" label="MIASTO" value="#{registerController.miasto}">
+                                        <f:ajax execute="miasto" render="miastoError" event="keyup" immediate="true"/>
+                                    </h:inputText>
+                                    <h:message id="miastoError" for="miasto" style="color:red"/>
+                                    
+                                    *ULICA:<h:inputText required="true" id="ulica" label="ULICA" value="#{registerController.ulica}">
+                                        <f:ajax execute="ulica" render="ulicaError" event="keyup" immediate="true"/>
+                                    </h:inputText>
+                                    <h:message id="ulicaError" for="ulica" style="color:red"/>
+
+                                    *KOD POCZTOWY:<h:inputText label="KOD" required="true"  id="kod" value="#{registerController.kod}" validatorMessage=' "KOD":To nie jest kod pocztowy '>
+                                        <f:validateRegex for="kod" pattern="^[0-9]{2}-{1}[0-9]{3}$" />
+                                        <f:ajax execute="kod" render="kodError" event="keyup" immediate="true"/></h:inputText>
+                                    <h:message id="kodError" for="kod" style="color:red"/>
+
+                                    *E_MAIL:<h:inputText label="EMAIL" required="true" id="email" value="#{registerController.email}">
+                                        <f:validator validatorId="emailValidator"/>
+                                        <f:ajax execute="email" render="emailError" event="keyup" immediate="true"/>
+                                        </h:inputText>
+                                    <h:message id="emailError" for="email" style="color:red"></h:message>
+                                    <div id="separatorBorder" style="border:1px; border-style: solid">
+                                    </div>
+
+                                    *LOGIN:<h:inputText label="LOGIN" id="login" value="#{registerController.login}" required="true" >
+                                        <f:validateLength for="login" minimum="5"/>
+                                        <f:ajax execute="login" render="loginError" event="keyup" immediate="true"/></h:inputText>
+                                    <h:message id="loginError" for="login" style="color: red"></h:message>
+
+                                    *HASŁO:<h:inputSecret label="HASŁO" id="hasło" value="#{registerController.pass}" required="true" >
+                                        <f:validateLength for="hasło" minimum="8" />
+                                        <f:ajax execute="hasło" render="passError" event="keyup" immediate="true"/></h:inputSecret>
+                                    <h:message id="passError" for="hasło" style="color: red"></h:message>
+                                </h:panelGrid>
+
+                                <h:panelGrid>
+                                    <h:messages style="text-align: left" id="errors" errorClass="error"/>
+                                </h:panelGrid>
+
+                                <h:commandButton action="#{registerController.register()}" value="Submit">
+                                    <f:ajax execute="@form" render="errors"></f:ajax>
+                                </h:commandButton>
+
+                                <br/>
+                                <h:outputText value="*Pola z gwiazdką są wymagane"/>
+
+                            </h:form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </h:body>
+</html>
+

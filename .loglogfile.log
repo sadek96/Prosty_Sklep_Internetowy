@@ -1,0 +1,659 @@
+14:19:42 DEBUG [main] - org.jboss.logging.<clinit> 35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:19:42  INFO [main] - org.jboss.weld.Version.<clinit> 153 - WELD-000900: 2.3.4 (Final)
+14:19:42 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@1217397, file properties will not be loaded
+14:19:42 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@1217397, file properties will not be loaded
+14:19:42 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@1217397, file properties will not be loaded
+14:19:42 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@1217397, file properties will not be loaded
+14:19:42 DEBUG [main] - org.jboss.weld.Configuration.<init> 123 - WELD-001902: Configuration initialized: {}
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.<init> 40 - WELD-000124: Using 4 threads for bootstrap
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.create 115 - Using instantiator: org.jboss.weld.bean.proxy.DefaultProxyInstantiator
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%ApplicationContext
+14:19:42 DEBUG [main] - org.jboss.weld.Reflection.check 72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%SingletonContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundSessionContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundConversationContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundRequestContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%RequestContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%DependentContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionDestructionContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpConversationContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpRequestContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%EjbRequestContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowDiscoveryCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@3
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@2
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.application.view.ViewScopeExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 114 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@4c012563 for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 107 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@4c012563 for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.application.view.ViewScopeExtension@420a85c4 for interface javax.faces.view.ViewScoped
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.flow.FlowCDIExtension@a37aefe for interface javax.faces.flow.FlowScoped
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 217 - WELD-000103: Enabled alternatives for Weld BeanManager for 3d5945d8-706f-42ce-aa94-948771e93b5b.jar [bean count=5]: (empty collection)
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 218 - WELD-000104: Enabled decorator types for Weld BeanManager for 3d5945d8-706f-42ce-aa94-948771e93b5b.jar [bean count=5]: (empty collection)
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 219 - WELD-000105: Enabled interceptor types for Weld BeanManager for 3d5945d8-706f-42ce-aa94-948771e93b5b.jar [bean count=5]: (empty collection)
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%BoundRequestContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Producer Method [FlowBuilder] with qualifiers [@FlowBuilderParameter @Any] declared as [[UnbackedAnnotatedMethod] @Produces @FlowBuilderParameter com.sun.faces.flow.FlowDiscoveryCDIHelper.createFlowBuilder()]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%HttpSessionContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%HttpSessionDestructionContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%RequestContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%HttpServletRequest
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%ApplicationContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class controllers.ProduktControllerTest] with qualifiers [@Any @Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%HttpSession
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%HttpRequestContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%BoundSessionContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%HttpConversationContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%BoundConversationContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%EjbRequestContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%Conversation
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%ServletContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class projekt.controller.ProduktController] with qualifiers [@Any @Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class com.sun.faces.flow.FlowDiscoveryCDIHelper] with qualifiers [@Default @Named @Any]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%DependentContext
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%3d5945d8-706f-42ce-aa94-948771e93b5b.jar%SingletonContext
+14:19:42 DEBUG [main] - org.jboss.weld.Reflection.check 74 - WELD-000604: interface javax.faces.flow.FlowScoped is not declared @Target(METHOD, FIELD, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.flow.FlowCDIExtension@a37aefe for com.sun.faces.flow.FlowCDIContext@19c65cdc
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.flow.FlowCDIExtension@a37aefe for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@338c99c8
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.application.view.ViewScopeExtension@420a85c4 for com.sun.faces.application.view.ViewScopeContext@401f7633
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.application.view.ViewScopeExtension@420a85c4 for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@63f259c3
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@338c99c8
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@63f259c3
+14:19:42 DEBUG [main] - org.jboss.weld.Reflection.check 80 - WELD-000601: interface javax.inject.Named is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:19:42 DEBUG [main] - org.jboss.weld.Bootstrap.validateBeans 441 - WELD-000100: Weld initialized. Validating beans
+14:21:54 DEBUG [main] - org.jboss.logging.<clinit> 35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:21:54  INFO [main] - org.jboss.weld.Version.<clinit> 153 - WELD-000900: 2.3.4 (Final)
+14:21:54 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@6643cc7e, file properties will not be loaded
+14:21:54 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@6643cc7e, file properties will not be loaded
+14:21:54 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@6643cc7e, file properties will not be loaded
+14:21:54 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@6643cc7e, file properties will not be loaded
+14:21:54 DEBUG [main] - org.jboss.weld.Configuration.<init> 123 - WELD-001902: Configuration initialized: {}
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.<init> 40 - WELD-000124: Using 4 threads for bootstrap
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.create 115 - Using instantiator: org.jboss.weld.bean.proxy.DefaultProxyInstantiator
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%ApplicationContext
+14:21:54 DEBUG [main] - org.jboss.weld.Reflection.check 72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%SingletonContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundSessionContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundConversationContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundRequestContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%RequestContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%DependentContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionDestructionContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpConversationContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpRequestContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%EjbRequestContext
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@2
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowDiscoveryCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@3
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.application.view.ViewScopeExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 114 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@24c4ddae for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 107 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@24c4ddae for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.application.view.ViewScopeExtension@55c53a33 for interface javax.faces.view.ViewScoped
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.flow.FlowCDIExtension@26df6e3a for interface javax.faces.flow.FlowScoped
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 217 - WELD-000103: Enabled alternatives for Weld BeanManager for 39afeb87-9580-43c1-92df-308b1ebeb693.jar [bean count=5]: (empty collection)
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 218 - WELD-000104: Enabled decorator types for Weld BeanManager for 39afeb87-9580-43c1-92df-308b1ebeb693.jar [bean count=5]: (empty collection)
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 219 - WELD-000105: Enabled interceptor types for Weld BeanManager for 39afeb87-9580-43c1-92df-308b1ebeb693.jar [bean count=5]: (empty collection)
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+14:21:54 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%SingletonContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%RequestContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%EjbRequestContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%HttpRequestContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Session bean [class projekt.ejb.ProduktFacade with qualifiers [@Any @Default]; local interfaces are [ProduktFacade]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%BoundSessionContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Producer Method [FlowBuilder] with qualifiers [@FlowBuilderParameter @Any] declared as [[UnbackedAnnotatedMethod] @Produces @FlowBuilderParameter com.sun.faces.flow.FlowDiscoveryCDIHelper.createFlowBuilder()]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%ServletContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%HttpServletRequest
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%HttpSession
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%HttpSessionContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%Conversation
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%DependentContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%HttpSessionDestructionContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%HttpConversationContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%BoundConversationContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class com.sun.faces.flow.FlowDiscoveryCDIHelper] with qualifiers [@Default @Named @Any]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%BoundRequestContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%ApplicationContext
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class controllers.ProduktControllerTest] with qualifiers [@Any @Default]
+14:21:55 DEBUG [main] - org.jboss.weld.Reflection.check 74 - WELD-000604: interface javax.faces.flow.FlowScoped is not declared @Target(METHOD, FIELD, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.flow.FlowCDIExtension@26df6e3a for com.sun.faces.flow.FlowCDIContext@401f7633
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.flow.FlowCDIExtension@26df6e3a for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@3d9c13b5
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.application.view.ViewScopeExtension@55c53a33 for com.sun.faces.application.view.ViewScopeContext@74589991
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.application.view.ViewScopeExtension@55c53a33 for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@3b7d3a38
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@3d9c13b5
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@3b7d3a38
+14:21:55 DEBUG [main] - org.jboss.weld.Reflection.check 80 - WELD-000601: interface javax.inject.Named is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.validateBeans 441 - WELD-000100: Weld initialized. Validating beans
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.build 139 - WELD-000145: Bean identifier index built:
+  BeanIdentifierIndex [hash=1352662937, indexed=1] 
+     0: WELD%AbstractBuiltInBean%39afeb87-9580-43c1-92df-308b1ebeb693.jar%HttpSession
+
+14:21:55 DEBUG [main] - org.jboss.weld.Bootstrap.endInitialization 499 - EE modules: [BeanDeploymentModule [id=BeanDeploymentModules.DEFAULT, web=false, managers=[39afeb87-9580-43c1-92df-308b1ebeb693.jar]]]
+14:21:55 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:21:55 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:22:53 DEBUG [main] - org.jboss.logging.<clinit> 35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:22:53  INFO [main] - org.jboss.weld.Version.<clinit> 153 - WELD-000900: 2.3.4 (Final)
+14:22:53 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@bbe371c6, file properties will not be loaded
+14:22:53 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@bbe371c6, file properties will not be loaded
+14:22:53 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@bbe371c6, file properties will not be loaded
+14:22:53 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@bbe371c6, file properties will not be loaded
+14:22:53 DEBUG [main] - org.jboss.weld.Configuration.<init> 123 - WELD-001902: Configuration initialized: {}
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.<init> 40 - WELD-000124: Using 4 threads for bootstrap
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.create 115 - Using instantiator: org.jboss.weld.bean.proxy.DefaultProxyInstantiator
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%ApplicationContext
+14:22:53 DEBUG [main] - org.jboss.weld.Reflection.check 72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%SingletonContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundSessionContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundConversationContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundRequestContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%RequestContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%DependentContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionDestructionContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpConversationContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpRequestContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%EjbRequestContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@2
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.application.view.ViewScopeExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowDiscoveryCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@3
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 114 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 107 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for interface javax.faces.view.ViewScoped
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for interface javax.faces.flow.FlowScoped
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 217 - WELD-000103: Enabled alternatives for Weld BeanManager for fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar [bean count=5]: (empty collection)
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 218 - WELD-000104: Enabled decorator types for Weld BeanManager for fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar [bean count=5]: (empty collection)
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 219 - WELD-000105: Enabled interceptor types for Weld BeanManager for fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar [bean count=5]: (empty collection)
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%EjbRequestContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%BoundRequestContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%ServletContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%HttpSession
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%DependentContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%BoundConversationContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Session bean [class projekt.ejb.ProduktFacade with qualifiers [@Any @Default]; local interfaces are [ProduktFacade]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%ApplicationContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%RequestContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%Conversation
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class controllers.ProduktControllerTest] with qualifiers [@Any @Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%HttpConversationContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%HttpRequestContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%HttpSessionContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Producer Method [FlowBuilder] with qualifiers [@FlowBuilderParameter @Any] declared as [[UnbackedAnnotatedMethod] @Produces @FlowBuilderParameter com.sun.faces.flow.FlowDiscoveryCDIHelper.createFlowBuilder()]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%HttpServletRequest
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%SingletonContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%HttpSessionDestructionContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%BoundSessionContext
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class com.sun.faces.flow.FlowDiscoveryCDIHelper] with qualifiers [@Default @Named @Any]
+14:22:53 DEBUG [main] - org.jboss.weld.Reflection.check 74 - WELD-000604: interface javax.faces.flow.FlowScoped is not declared @Target(METHOD, FIELD, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.flow.FlowCDIContext@67d18ed7
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.application.view.ViewScopeContext@2f67b837
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:22:53 DEBUG [main] - org.jboss.weld.Reflection.check 80 - WELD-000601: interface javax.inject.Named is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.validateBeans 441 - WELD-000100: Weld initialized. Validating beans
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.build 139 - WELD-000145: Bean identifier index built:
+  BeanIdentifierIndex [hash=-1211500319, indexed=1] 
+     0: WELD%AbstractBuiltInBean%fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar%HttpSession
+
+14:22:53 DEBUG [main] - org.jboss.weld.Bootstrap.endInitialization 499 - EE modules: [BeanDeploymentModule [id=BeanDeploymentModules.DEFAULT, web=false, managers=[fbb9c33e-e0b4-44b0-a3dd-848d38621393.jar]]]
+14:22:53 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:22:53 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:23:00 DEBUG [main] - org.jboss.logging.<clinit> 35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:23:00  INFO [main] - org.jboss.weld.Version.<clinit> 153 - WELD-000900: 2.3.4 (Final)
+14:23:00 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@7c5e69d8, file properties will not be loaded
+14:23:00 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@7c5e69d8, file properties will not be loaded
+14:23:00 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@7c5e69d8, file properties will not be loaded
+14:23:00 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@7c5e69d8, file properties will not be loaded
+14:23:00 DEBUG [main] - org.jboss.weld.Configuration.<init> 123 - WELD-001902: Configuration initialized: {}
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.<init> 40 - WELD-000124: Using 4 threads for bootstrap
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.create 115 - Using instantiator: org.jboss.weld.bean.proxy.DefaultProxyInstantiator
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%ApplicationContext
+14:23:00 DEBUG [main] - org.jboss.weld.Reflection.check 72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%SingletonContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundSessionContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundConversationContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundRequestContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%RequestContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%DependentContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionDestructionContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpConversationContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpRequestContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%EjbRequestContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@2
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.application.view.ViewScopeExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowDiscoveryCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@3
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 114 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 107 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for interface javax.faces.view.ViewScoped
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for interface javax.faces.flow.FlowScoped
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 217 - WELD-000103: Enabled alternatives for Weld BeanManager for 7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar [bean count=5]: (empty collection)
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 218 - WELD-000104: Enabled decorator types for Weld BeanManager for 7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar [bean count=5]: (empty collection)
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 219 - WELD-000105: Enabled interceptor types for Weld BeanManager for 7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar [bean count=5]: (empty collection)
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%SingletonContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%BoundRequestContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%HttpServletRequest
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%HttpSessionContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%ServletContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%HttpSessionDestructionContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class com.sun.faces.flow.FlowDiscoveryCDIHelper] with qualifiers [@Default @Named @Any]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Session bean [class projekt.ejb.ProduktFacade with qualifiers [@Any @Default]; local interfaces are [ProduktFacade]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%HttpSession
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%HttpRequestContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%ApplicationContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%BoundSessionContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%BoundConversationContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%HttpConversationContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%EjbRequestContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%DependentContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Producer Method [FlowBuilder] with qualifiers [@FlowBuilderParameter @Any] declared as [[UnbackedAnnotatedMethod] @Produces @FlowBuilderParameter com.sun.faces.flow.FlowDiscoveryCDIHelper.createFlowBuilder()]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%RequestContext
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class controllers.ProduktControllerTest] with qualifiers [@Any @Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%Conversation
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+14:23:00 DEBUG [main] - org.jboss.weld.Reflection.check 74 - WELD-000604: interface javax.faces.flow.FlowScoped is not declared @Target(METHOD, FIELD, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.flow.FlowCDIContext@67d18ed7
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.application.view.ViewScopeContext@2f67b837
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:23:00 DEBUG [main] - org.jboss.weld.Reflection.check 80 - WELD-000601: interface javax.inject.Named is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.validateBeans 441 - WELD-000100: Weld initialized. Validating beans
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.build 139 - WELD-000145: Bean identifier index built:
+  BeanIdentifierIndex [hash=1153918451, indexed=1] 
+     0: WELD%AbstractBuiltInBean%7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar%HttpSession
+
+14:23:00 DEBUG [main] - org.jboss.weld.Bootstrap.endInitialization 499 - EE modules: [BeanDeploymentModule [id=BeanDeploymentModules.DEFAULT, web=false, managers=[7d491b6c-7448-41a9-9a0f-ddfbac052f5c.jar]]]
+14:23:00 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:23:00 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:23:12 DEBUG [main] - org.jboss.logging.<clinit> 35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:23:12  INFO [main] - org.jboss.weld.Version.<clinit> 153 - WELD-000900: 2.3.4 (Final)
+14:23:12 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@68d58460, file properties will not be loaded
+14:23:12 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@68d58460, file properties will not be loaded
+14:23:12 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@68d58460, file properties will not be loaded
+14:23:12 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@68d58460, file properties will not be loaded
+14:23:12 DEBUG [main] - org.jboss.weld.Configuration.<init> 123 - WELD-001902: Configuration initialized: {}
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.<init> 40 - WELD-000124: Using 4 threads for bootstrap
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.create 115 - Using instantiator: org.jboss.weld.bean.proxy.DefaultProxyInstantiator
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%ApplicationContext
+14:23:12 DEBUG [main] - org.jboss.weld.Reflection.check 72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%SingletonContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundSessionContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundConversationContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundRequestContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%RequestContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%DependentContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionDestructionContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpConversationContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpRequestContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%EjbRequestContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@2
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.application.view.ViewScopeExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowDiscoveryCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@3
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 114 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 107 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for interface javax.faces.view.ViewScoped
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for interface javax.faces.flow.FlowScoped
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 217 - WELD-000103: Enabled alternatives for Weld BeanManager for 2b39c48b-8918-4704-b006-2849cf64d681.jar [bean count=5]: (empty collection)
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 218 - WELD-000104: Enabled decorator types for Weld BeanManager for 2b39c48b-8918-4704-b006-2849cf64d681.jar [bean count=5]: (empty collection)
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 219 - WELD-000105: Enabled interceptor types for Weld BeanManager for 2b39c48b-8918-4704-b006-2849cf64d681.jar [bean count=5]: (empty collection)
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%HttpRequestContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%ServletContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class controllers.ProduktControllerTest] with qualifiers [@Any @Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%EjbRequestContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%DependentContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Producer Method [FlowBuilder] with qualifiers [@FlowBuilderParameter @Any] declared as [[UnbackedAnnotatedMethod] @Produces @FlowBuilderParameter com.sun.faces.flow.FlowDiscoveryCDIHelper.createFlowBuilder()]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%Conversation
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%HttpSessionDestructionContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Session bean [class projekt.ejb.ProduktFacade with qualifiers [@Any @Default]; local interfaces are [ProduktFacade]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%BoundSessionContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%HttpConversationContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class com.sun.faces.flow.FlowDiscoveryCDIHelper] with qualifiers [@Default @Named @Any]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%HttpSession
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%ApplicationContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%BoundRequestContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%SingletonContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%BoundConversationContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%HttpServletRequest
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%HttpSessionContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%RequestContext
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+14:23:12 DEBUG [main] - org.jboss.weld.Reflection.check 74 - WELD-000604: interface javax.faces.flow.FlowScoped is not declared @Target(METHOD, FIELD, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.flow.FlowCDIContext@67d18ed7
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.application.view.ViewScopeContext@2f67b837
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:23:12 DEBUG [main] - org.jboss.weld.Reflection.check 80 - WELD-000601: interface javax.inject.Named is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.validateBeans 441 - WELD-000100: Weld initialized. Validating beans
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.build 139 - WELD-000145: Bean identifier index built:
+  BeanIdentifierIndex [hash=990049403, indexed=1] 
+     0: WELD%AbstractBuiltInBean%2b39c48b-8918-4704-b006-2849cf64d681.jar%HttpSession
+
+14:23:12 DEBUG [main] - org.jboss.weld.Bootstrap.endInitialization 499 - EE modules: [BeanDeploymentModule [id=BeanDeploymentModules.DEFAULT, web=false, managers=[2b39c48b-8918-4704-b006-2849cf64d681.jar]]]
+14:23:12 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:23:12 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:26:30 DEBUG [main] - org.jboss.logging.<clinit> 35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:26:30  INFO [main] - org.jboss.weld.Version.<clinit> 153 - WELD-000900: 2.3.4 (Final)
+14:26:30 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@9f142806, file properties will not be loaded
+14:26:30 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@9f142806, file properties will not be loaded
+14:26:30 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@9f142806, file properties will not be loaded
+14:26:30 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@9f142806, file properties will not be loaded
+14:26:30 DEBUG [main] - org.jboss.weld.Configuration.<init> 123 - WELD-001902: Configuration initialized: {}
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.<init> 40 - WELD-000124: Using 4 threads for bootstrap
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.create 115 - Using instantiator: org.jboss.weld.bean.proxy.DefaultProxyInstantiator
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%ApplicationContext
+14:26:30 DEBUG [main] - org.jboss.weld.Reflection.check 72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%SingletonContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundSessionContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundConversationContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundRequestContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%RequestContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%DependentContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionDestructionContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpConversationContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpRequestContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%EjbRequestContext
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@2
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.application.view.ViewScopeExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowDiscoveryCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@3
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 114 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 107 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for interface javax.faces.view.ViewScoped
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for interface javax.faces.flow.FlowScoped
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 217 - WELD-000103: Enabled alternatives for Weld BeanManager for 8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar [bean count=5]: (empty collection)
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 218 - WELD-000104: Enabled decorator types for Weld BeanManager for 8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar [bean count=5]: (empty collection)
+14:26:30 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 219 - WELD-000105: Enabled interceptor types for Weld BeanManager for 8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar [bean count=5]: (empty collection)
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%ServletContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%DependentContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%HttpSessionContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%HttpServletRequest
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%EjbRequestContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%ApplicationContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Session bean [class projekt.ejb.ProduktFacade with qualifiers [@Any @Default]; local interfaces are [ProduktFacade]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%RequestContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class com.sun.faces.flow.FlowDiscoveryCDIHelper] with qualifiers [@Default @Named @Any]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%BoundRequestContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%HttpSession
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%BoundConversationContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%Conversation
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%HttpConversationContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%BoundSessionContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Producer Method [FlowBuilder] with qualifiers [@FlowBuilderParameter @Any] declared as [[UnbackedAnnotatedMethod] @Produces @FlowBuilderParameter com.sun.faces.flow.FlowDiscoveryCDIHelper.createFlowBuilder()]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%HttpSessionDestructionContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class controllers.ProduktControllerTest] with qualifiers [@Any @Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%SingletonContext
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%HttpRequestContext
+14:26:31 DEBUG [main] - org.jboss.weld.Reflection.check 74 - WELD-000604: interface javax.faces.flow.FlowScoped is not declared @Target(METHOD, FIELD, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.flow.FlowCDIContext@67d18ed7
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.application.view.ViewScopeContext@2f67b837
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:26:31 DEBUG [main] - org.jboss.weld.Reflection.check 80 - WELD-000601: interface javax.inject.Named is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.validateBeans 441 - WELD-000100: Weld initialized. Validating beans
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.build 139 - WELD-000145: Bean identifier index built:
+  BeanIdentifierIndex [hash=442191649, indexed=1] 
+     0: WELD%AbstractBuiltInBean%8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar%HttpSession
+
+14:26:31 DEBUG [main] - org.jboss.weld.Bootstrap.endInitialization 499 - EE modules: [BeanDeploymentModule [id=BeanDeploymentModules.DEFAULT, web=false, managers=[8cb81778-5fd6-41c2-aba0-4aebb38a49a0.jar]]]
+14:26:31 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:26:31 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:27:04 DEBUG [main] - org.jboss.logging.<clinit> 35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:27:04  INFO [main] - org.jboss.weld.Version.<clinit> 153 - WELD-000900: 2.3.4 (Final)
+14:27:04 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@8c8617e6, file properties will not be loaded
+14:27:04 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@8c8617e6, file properties will not be loaded
+14:27:04 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@8c8617e6, file properties will not be loaded
+14:27:04 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@8c8617e6, file properties will not be loaded
+14:27:04 DEBUG [main] - org.jboss.weld.Configuration.<init> 123 - WELD-001902: Configuration initialized: {}
+14:27:04 DEBUG [main] - org.jboss.weld.Bootstrap.<init> 40 - WELD-000124: Using 4 threads for bootstrap
+14:27:04 DEBUG [main] - org.jboss.weld.Bootstrap.create 115 - Using instantiator: org.jboss.weld.bean.proxy.DefaultProxyInstantiator
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%ApplicationContext
+14:27:05 DEBUG [main] - org.jboss.weld.Reflection.check 72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%SingletonContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundSessionContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundConversationContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundRequestContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%RequestContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%DependentContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionDestructionContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpConversationContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpRequestContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%EjbRequestContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@2
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.application.view.ViewScopeExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowDiscoveryCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@3
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 114 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 107 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@51c693d for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for interface javax.faces.view.ViewScoped
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for interface javax.faces.flow.FlowScoped
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 217 - WELD-000103: Enabled alternatives for Weld BeanManager for 212efe65-9f78-4c9a-acc1-cefdec053e83.jar [bean count=5]: (empty collection)
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 218 - WELD-000104: Enabled decorator types for Weld BeanManager for 212efe65-9f78-4c9a-acc1-cefdec053e83.jar [bean count=5]: (empty collection)
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 219 - WELD-000105: Enabled interceptor types for Weld BeanManager for 212efe65-9f78-4c9a-acc1-cefdec053e83.jar [bean count=5]: (empty collection)
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%BoundSessionContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%BoundConversationContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%HttpSessionDestructionContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Producer Method [FlowBuilder] with qualifiers [@FlowBuilderParameter @Any] declared as [[UnbackedAnnotatedMethod] @Produces @FlowBuilderParameter com.sun.faces.flow.FlowDiscoveryCDIHelper.createFlowBuilder()]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%Conversation
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class controllers.ProduktControllerTest] with qualifiers [@Any @Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%HttpSessionContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Session bean [class projekt.ejb.ProduktFacade with qualifiers [@Any @Default]; local interfaces are [ProduktFacade]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%EjbRequestContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%ApplicationContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%HttpSession
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%HttpConversationContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%HttpRequestContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%SingletonContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class com.sun.faces.flow.FlowDiscoveryCDIHelper] with qualifiers [@Default @Named @Any]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%DependentContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%HttpServletRequest
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%BoundRequestContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%ServletContext
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%RequestContext
+14:27:05 DEBUG [main] - org.jboss.weld.Reflection.check 74 - WELD-000604: interface javax.faces.flow.FlowScoped is not declared @Target(METHOD, FIELD, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.flow.FlowCDIContext@67d18ed7
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.flow.FlowCDIExtension@52e7a6b2 for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.application.view.ViewScopeContext@2f67b837
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.application.view.ViewScopeExtension@26df6e3a for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@8576fa0
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@21337f7b
+14:27:05 DEBUG [main] - org.jboss.weld.Reflection.check 80 - WELD-000601: interface javax.inject.Named is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.validateBeans 441 - WELD-000100: Weld initialized. Validating beans
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.build 139 - WELD-000145: Bean identifier index built:
+  BeanIdentifierIndex [hash=1812229889, indexed=1] 
+     0: WELD%AbstractBuiltInBean%212efe65-9f78-4c9a-acc1-cefdec053e83.jar%HttpSession
+
+14:27:05 DEBUG [main] - org.jboss.weld.Bootstrap.endInitialization 499 - EE modules: [BeanDeploymentModule [id=BeanDeploymentModules.DEFAULT, web=false, managers=[212efe65-9f78-4c9a-acc1-cefdec053e83.jar]]]
+14:27:05 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:27:05 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:30:21 DEBUG [main] - org.jboss.logging.<clinit> 35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:30:21  INFO [main] - org.jboss.weld.Version.<clinit> 153 - WELD-000900: 2.3.4 (Final)
+14:30:21 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@6a04a71b, file properties will not be loaded
+14:30:21 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@6a04a71b, file properties will not be loaded
+14:30:21 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@6a04a71b, file properties will not be loaded
+14:30:21 DEBUG [main] - org.jboss.weld.Configuration.findPropertiesFiles 306 - WELD-001906: ResourceLoader not specified for org.jboss.arquillian.container.weld.ee.embedded_1_1.mock.BeanDeploymentArchiveImpl@6a04a71b, file properties will not be loaded
+14:30:21 DEBUG [main] - org.jboss.weld.Configuration.<init> 123 - WELD-001902: Configuration initialized: {}
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.<init> 40 - WELD-000124: Using 4 threads for bootstrap
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.create 115 - Using instantiator: org.jboss.weld.bean.proxy.DefaultProxyInstantiator
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%ApplicationContext
+14:30:21 DEBUG [main] - org.jboss.weld.Reflection.check 72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%SingletonContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundSessionContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundConversationContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%BoundRequestContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%RequestContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%DependentContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpSessionDestructionContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpConversationContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%HttpRequestContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%deployment%EjbRequestContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@2
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.application.view.ViewScopeExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Extension [class com.sun.faces.flow.FlowDiscoveryCDIExtension] with qualifiers [@Default]; jar:file:/C:/Users/Daniel/.m2/repository/com/sun/faces/jsf-impl/2.2.13/jsf-impl-2.2.13.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@3
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 114 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@6a57ae10 for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addAnnotatedType 107 - WELD-000162: BeforeBeanDiscovery.addAnnotatedType() called by com.sun.faces.flow.FlowDiscoveryCDIExtension@6a57ae10 for [BackedAnnotatedType] public @Named @Dependent class com.sun.faces.flow.FlowDiscoveryCDIHelper
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.application.view.ViewScopeExtension@4a3631f8 for interface javax.faces.view.ViewScoped
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addScope 87 - WELD-000159: BeforeBeanDiscovery.addScope() called by com.sun.faces.flow.FlowCDIExtension@29a5f4e7 for interface javax.faces.flow.FlowScoped
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 217 - WELD-000103: Enabled alternatives for Weld BeanManager for c515d2f1-2036-4c43-8498-c1ce7638d739.jar [bean count=5]: (empty collection)
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 218 - WELD-000104: Enabled decorator types for Weld BeanManager for c515d2f1-2036-4c43-8498-c1ce7638d739.jar [bean count=5]: (empty collection)
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.createEnablement 219 - WELD-000105: Enabled interceptor types for Weld BeanManager for c515d2f1-2036-4c43-8498-c1ce7638d739.jar [bean count=5]: (empty collection)
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class com.sun.faces.flow.FlowDiscoveryCDIHelper] with qualifiers [@Default @Named @Any]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%BoundConversationContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%HttpRequestContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%ServletContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Session bean [class projekt.ejb.ProduktFacade with qualifiers [@Any @Default]; local interfaces are [ProduktFacade]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%HttpSession
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%BoundSessionContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%ApplicationContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%HttpServletRequest
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%HttpSessionContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%EjbRequestContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Managed Bean [class controllers.ProduktControllerTest] with qualifiers [@Any @Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%Conversation
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%RequestContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%DependentContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%BoundRequestContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%SingletonContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%HttpConversationContext
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Producer Method [FlowBuilder] with qualifiers [@FlowBuilderParameter @Any] declared as [[UnbackedAnnotatedMethod] @Produces @FlowBuilderParameter com.sun.faces.flow.FlowDiscoveryCDIHelper.createFlowBuilder()]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%HttpSessionDestructionContext
+14:30:21 DEBUG [main] - org.jboss.weld.Reflection.check 74 - WELD-000604: interface javax.faces.flow.FlowScoped is not declared @Target(METHOD, FIELD, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.flow.FlowCDIExtension@29a5f4e7 for com.sun.faces.flow.FlowCDIContext@67d18ed7
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.flow.FlowCDIExtension@29a5f4e7 for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@67545b57
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addContext 158 - WELD-000156: AfterBeanDiscovery.addContext() called by com.sun.faces.application.view.ViewScopeExtension@4a3631f8 for com.sun.faces.application.view.ViewScopeContext@6cce16f4
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 84 - WELD-000154: AfterBeanDiscovery.addBean() called by com.sun.faces.application.view.ViewScopeExtension@4a3631f8 for com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@60df60da
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@67545b57
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.addBean 499 - WELD-000106: Bean: com.sun.faces.util.cdi11.CDIUtilImpl$BeanWrapper@60df60da
+14:30:21 DEBUG [main] - org.jboss.weld.Reflection.check 80 - WELD-000601: interface javax.inject.Named is missing @Target. Weld will use this annotation, however this may make the application unportable.
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.validateBeans 441 - WELD-000100: Weld initialized. Validating beans
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.build 139 - WELD-000145: Bean identifier index built:
+  BeanIdentifierIndex [hash=-1908091210, indexed=1] 
+     0: WELD%AbstractBuiltInBean%c515d2f1-2036-4c43-8498-c1ce7638d739.jar%HttpSession
+
+14:30:21 DEBUG [main] - org.jboss.weld.Bootstrap.endInitialization 499 - EE modules: [BeanDeploymentModule [id=BeanDeploymentModules.DEFAULT, web=false, managers=[c515d2f1-2036-4c43-8498-c1ce7638d739.jar]]]
+14:30:21 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:30:21 DEBUG [main] - org.jboss.weld.Reflection.check 82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+14:30:21  WARN [main] - org.jboss.weld.Utilities.getResourceReference 57 - WELD-000834: Unable to inject resource - most probably incorrect InjectionServices SPI implementation: projekt.ejb.ProduktFacade controllers.ProduktControllerTest.produktFacade
+	at controllers.ProduktControllerTest.produktFacade(ProduktControllerTest.java:0)

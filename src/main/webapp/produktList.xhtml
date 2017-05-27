@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Produkty</title>
+        <h:outputStylesheet library="css" name="projektstyle.css" />
+    </h:head>
+    <h:body>
+        <ui:include src="header.xhtml"/>
+
+        <ui:include id="cartHtml" rendered="#{loginSessionBean.loggedIn}" src="cart.xhtml"/>
+
+
+        <div id="wrapper">
+            <div id="body" class="curved">
+                <div id="content" class="curved container">
+
+                    <div align="center" style="margin:10px 30px;">
+
+                        <h:dataTable  cellspacing="3px" cellpadding="5px" id="produktTable" value="#{produktController.findAll()}" var="item"
+                                     styleClass="order-table"
+                                     headerClass="order-table-header"
+                                     rowClasses="order-table-odd-row,order-table-even-row">
+
+                            <f:facet name="header">LISTA PRODUKTÓW</f:facet>
+                            <h:column>
+                                <f:facet name="header">ID</f:facet>
+                                <h:outputLabel value="#{item.produktId}"/>
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">NAZWA</f:facet>
+                                    #{item.nazwa}
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">CENA</f:facet>
+                                <h:outputText value="#{item.cena}">
+                                    <f:convertNumber type="currency" minFractionDigits="2" maxFractionDigits="2" currencySymbol="ZŁ"/>
+                                </h:outputText>
+                            </h:column>
+                            <h:column rendered="#{loginSessionBean.loggedIn}">
+                                <f:facet name="header">DO KOSZYKA</f:facet>
+                                <h:form>
+                                    <h:commandLink id="addToCart" value="dodaj" action="#{cartSessionBean.addToCart(item)}">
+                                        <f:ajax execute="addToCart" render="cartForm:cartTable" />
+                                    </h:commandLink>
+                                </h:form>
+                            </h:column>
+
+                        </h:dataTable>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </h:body>
+</html>
+
